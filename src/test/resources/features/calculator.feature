@@ -29,7 +29,8 @@ Feature: Calculator
 
     Examples:
       | input | opt | result |
-      | 4     | rvs | 0.25   |
-      | 4     | sqr | 2      |
+      | 2     | rvs | 0.5    |
+      | 16    | sqr | 4      |
       | -10   | sqr | NaN    |
       | 3     | rvs | 0.33   |
+      | 25    | sqr | 5      |
